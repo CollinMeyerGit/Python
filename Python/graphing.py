@@ -16,7 +16,7 @@ while(var < 400):
     x.append(var)
     var = (var + 1)
 for i in x:
-    y.append(i ** 2) # This is the where the function goes
+    y.append((i ** 2)+25) # This is the where the function goes
 x = [(i+400) for i in x]
 y = [(400-i) for i in y]
 var = 0
